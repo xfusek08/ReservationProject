@@ -1,0 +1,193 @@
+.ui-datepicker a
+{
+  color: black;
+  text-decoration: none;
+}
+.ui-datepicker
+{  
+  color: black;
+}
+.ui-datepicker table
+{
+  border-collapse: collapse;
+  cursor: pointer;
+  text-align: center;
+  width: 97%;  
+  margin: auto;
+  table-layout: fixed;
+}
+
+.ui-datepicker table th
+{
+  font-size: 15px;
+}
+
+.ui-datepicker table td
+{ 
+  padding: 0px;   
+  border: 1px solid rgba(190,190,190,1);
+  height: 34px;
+  vertical-align: top;
+  padding-top: 4px;
+}
+.ui-datepicker table td a
+{
+  /*
+  vertical-align: top;
+  display: inline-block;
+  */
+}
+.ui-datepicker td .termdata
+{
+  margin: 0;
+  display: block;
+  display: table;
+  width: 100%;
+  /*
+  border-collapse: collapse;
+  margin-left: 5%;
+  margin-top: 4px;
+  width: 90%;
+  border: 1px red solid;
+  height: 11px;
+  */
+}
+.ui-datepicker td .termdata > div
+{
+  width: 9px;
+  font-size: 14px;
+  font-family: monospace;
+  display: table-cell;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 0;
+  /*
+  width: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin: 2px;
+  font-family: monospace;
+  font-weight: bold;
+  border: 1px solid rgba(190,190,190,1);
+  border-radius: 7px;
+  */
+}
+.ui-datepicker td .termdata > .reservationnum
+{
+  background: rgb(140,200,255);  
+}
+.ui-datepicker td .termdata > .freetermnum
+{
+  background: rgb(50,255,50);  
+}
+.ui-datepicker td .termdata > .invisiblenum
+{
+  background: rgb(245,200,50);  
+}
+.ui-datepicker td.ui-datepicker-current-day
+{
+  /*
+  -webkit-box-shadow: red 0px 0px 5px 1px inset;
+     -moz-box-shadow: red 0px 0px 5px 1px inset;
+          box-shadow: red 0px 0px 5px 1px inset;
+   z-index: 100;
+  outline-style: inset;
+  */
+  
+  outline-color: rgba(255,100,10, 1);
+  outline-width: 2px;
+  outline-style: solid;
+  
+}
+.ui-datepicker td.ui-datepicker-current-day a
+{
+  font-weight: bold;
+}
+.ui-datepicker td .ui-state-hover
+{
+  /*background-color: rgb(255, 250, 240);*/
+}
+.ui-datepicker .ui-state-disabled,
+.ui-datepicker .ui-state-disabled > *
+{
+  background-color: rgb(200, 200, 200);
+}
+.ui-datepicker .ui-datepicker-other-month > *
+{
+  color: rgb(190,190,190);
+}
+.ui-datepicker-header
+{ 
+  height: 30px;
+  /*line-height: 30px;*/
+  font-size: 16px;
+  margin-bottom: 10px;  
+  background: rgb(70,160,255); 
+  /*
+  background: #2e84a1;; 
+  */
+}
+.ui-datepicker-title
+{
+  text-align: center;
+  padding-top: 5px;
+}
+.ui-datepicker-title select
+{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next 
+{  
+  width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+}
+.ui-datepicker-prev > *, 
+.ui-datepicker-next > *
+{  
+  color: white;
+}
+.ui-datepicker-header a.ui-state-hover
+{
+  background: rgba(110,200,255,1);
+}
+
+.ui-datepicker-prev
+{
+  float: left;
+  
+}
+.ui-datepicker-next
+{  
+  float: right;
+}
+#ui-datepicker-div
+{
+  width: 250px;
+  background: white;  
+  -webkit-box-shadow: 0px 2px 5px 1px rgb(100,100,100);
+    -moz-box-shadow: 0px 2px 5px 1px rgb(100,100,100);
+         box-shadow: 0px 2px 5px 1px rgb(100,100,100);
+}
+#ui-datepicker-div table
+{
+  background-color: white;
+  width: 100%;
+}
+#ui-datepicker-div table td
+{
+  border: none;
+  height: 18px;   
+}
+.ui-datepicker .ui-datepicker-today > a
+{
+  font-weight: bold;
+  color: rgb(200,100,40);
+}

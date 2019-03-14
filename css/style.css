@@ -1,0 +1,490 @@
+* {
+  padding: 0;
+  margin: 0;
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #033343; /* 090 */
+  background-image: url(../images/stopy.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  font: 13px Arial, Verdana, Tahoma, sans-serif;
+  line-height: 17px;
+  margin-top: 40px;
+}
+
+img {border: none;}
+a{ color: #2A84E5; text-decoration: none; }
+a:hover {  color: #000; }
+
+#top {
+  background-image:  url(../images/ramecek_hlavicka.png);
+  background-repeat: no-repeat;
+  min-height: 40px;
+}
+#contentt {
+  background-image: url(../images/ramecek_telo.png);
+  background-repeat: repeat;
+  padding: 10px;
+}
+#bottom {
+  background-image: url(../images/ramecek_paticka.png);
+  background-repeat: no-repeat;
+  min-height: 45px;
+}
+
+#wrap {
+  width: 970px;
+  margin: 0 auto;
+}
+
+hr {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
+/* ..................................... header ............................. */
+#header {
+  height: 185px;
+  line-height: 40px;
+  xbackground: #fff;
+}
+#header img {xpadding-top: 5px;}
+#header a { 
+  color: #00f;
+  text-decoration: none;
+}
+#header a:hover {
+  color: #000;
+}
+
+/* ...................................... left .............................. */
+.left {
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  width: 280px;
+  line-height: 20px;
+}
+.left h2 {
+  margin-top: 10px;
+  font: bold 13px Verdana, 'Trebuchet MS', Sans-serif;
+  line-height: 30px;	
+  background: #92121a;
+  text-decoration: underline;	
+  height: 30px;
+  color: #fff;
+  padding-left: 10px;
+}
+.left ul  {
+  color: #aaa;
+  font-family: Comic Sans MS, Arial, sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  list-style-type: none;	
+}
+.left ul li {
+  padding: 5px 0 5px 0px;
+  margin: 0 2px;	
+}
+.left ul a {
+  xfont-weight: 1.1em;
+  color: #fff; /*2A84E5  */
+}
+.left ul a:hover { color : #2e84a1; /*font-size: 1.2em;*/ }
+
+#selected {
+  color: #0dcee4; /* 92121a */
+  /*font-size: 1.1em;*/
+  font-stretch: semi-condensed;
+  font-weight: bold; 
+  font-variant: small-caps;
+}
+.ikonky {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+#toplist  { 
+  margin-bottom: 10px;
+  padding-left:   10px;
+  padding-top:  15px;
+}
+
+/* ...................................... main .............................. */
+.main { 
+  width: 600px;
+  margin-top: 0px;
+  float: left;
+  margin-left: 20px;
+  line-height: 20px;
+}
+.main h2 {
+  font: 1.2em Comic Sans MS, Arial, Verdana, 'Trebuchet MS', Sans-serif;
+  letter-spacing: 1px;
+  color: #fff;	
+  xbackground: #CC0001 url(../images/ramecek_telo) repeat-x;
+  background: #2e84a1;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.main h2 a {
+  color: #fff;
+}
+.main h2 a:hover {
+  color: #000;
+}
+
+.main a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.main h1 {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+ul.hlavni {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 35px;
+  xmargin-left: 15px; 
+}
+ul.hlavni li {
+  list-style-type: none;
+}
+ul.hlavni a {
+  text-decoration: none;
+}
+ul.hlavni a:hover { color : #000; }
+
+ul.hlavnir {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: right;
+}
+ul.hlavnir li {
+  list-style-type: none;}
+ul.hlavnir a {
+  text-decoration: none;
+}
+
+div.info { display: none; padding-bottom: 10px; }
+
+h3.down  {
+  xbackground: #3c9b93;
+  xcolor: #0dcee4;
+  font-size:  1.1em;
+  font-family:  Arial, Segoe UI;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  padding-left:   0px;
+  line-height: 35px;
+  margin-top:   2px;
+  margin-bottom:   8px;
+  cursor: pointer;
+}
+
+h3.title {  background-color: #008000;
+            color:  white;
+            font-family: Segoe UI, Arial, sans-serif ;
+            font-variant: small-caps;
+            font-style: oblique;
+            padding-left:  20px;
+            margin-right:  0px;
+            margin-top: 15px;
+            margin-bottom: 10x;
+            padding-top:  3px;
+            padding-bottom:  3px;
+            font-size: 1.1em;
+}
+
+.right {
+  float: right;
+  margin-right: 25px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4.akt {   xfont-weight:  bold;
+           padding-left: 20px;
+           padding-top:  3px;
+           padding-bottom:  3px;
+           background-color: rgb(217, 255, 217);
+}
+
+p {margin-bottom: 10px; margin-top: 10px;}
+
+.odsaz {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+ul.kontakt { margin-left: 15px;
+             margin-bottom: 15px; 
+             margin-top: 15px;
+             list-style-type: none;
+             padding-right:  15px;
+             xfont-style: italic;
+}
+
+.od  {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+img.m {
+  padding: 5px;
+}
+img.right { 
+  margin: 10px;
+  float: right;
+}
+img.left { 
+  margin: 10px;
+  float: left;
+}
+
+h4.nadpisek {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-family: Arial, Comic Sans MS, sans-serif;
+  font-style: oblique;
+  font-size: 1.1em;
+}
+
+h4.popisek {
+  font-family: Arial, Comic Sans MS, sans-serif;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+div.middle {
+  padding: 10px;
+  text-align: center;
+}
+
+.middle a { text-decoration: none;}
+
+img.mid {
+  padding-right: 10px; 
+  vertical-align: middle;
+}
+/* --------------------------------footer------------------------------------ */
+#footer { 
+  xcolor: #777;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer a {  xcolor: #777; text-decoration: none; }
+#footer  a:hover { color: #000; } 
+
+
+/*.............................. jazyky ......................................*/
+
+table.jazyky { width: 100%;
+               border-collapse: collapse;
+               border: 0px solid rgb(217, 255, 217);
+               margin-bottom: 15px;
+}
+
+table.jazyky td { 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  xpadding-left: 5px;
+  vertical-align: middle;
+  border: 0px solid rgb(217, 255, 217);
+}
+
+#zaci { width: 130px; padding-left: 5px; }
+#den { width: 20px; padding-left: 5px;  }
+#hodiny { width: 100px; padding-left: 5px; }
+#celkem { width: auto; padding-left: 10px;}
+
+
+table.jazykyd { xwidth: 60%;
+                border-collapse: collapse;
+                border: 0px solid rgb(217, 255, 217);
+                margin-bottom: 15px;
+}
+
+table.jazykyd td { 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  xpadding-left: 5px;
+  vertical-align: middle;
+  border: 0px solid rgb(217, 255, 217);
+}
+
+#zacid { width: 80px; padding-left: 5px; }
+#dend { width: 20px; padding-left: 5px;  }
+#hodinyd { width: 100px; padding-left: 5px; }
+
+
+table.jazykya { width: 100%;
+                border-collapse: collapse;
+                border: 0px solid rgb(217, 255, 217);
+                margin-bottom: 15px;
+}
+
+table.jazykya td { 
+  padding-top: 5px;
+  padding-bottom: 5px;
+  xpadding-left: 5px;
+  vertical-align: middle;
+  border: 0px solid rgb(217, 255, 217);
+}
+
+#zacia  { width: 150px; padding-left: 5px; }
+#ucebna { xwidth: 150px; padding-left: 5px; }
+
+/*............................... ceny .......................................*/
+
+table.ceny { 
+  width: 100%;
+  vertical-align: center;
+  border-collapse: collapse;
+  border: 1px dotted #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.ceny th {
+  border-collapse: collapse;
+  border-bottom: 0px dotted #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+th.left { 
+  width: 300px;
+  border-bottom: 0px dotted #fff;
+}
+
+.ceny td {
+  border-collapse: collapse;
+  border-top: 1px dotted  #fff; /* rgb(217, 255, 217) */
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td.stred { 
+  text-align: center;
+  vertical-align: middle;
+  border-top: 1px dotted #fff;
+}
+
+
+/*.............................. rozvrh ......................................*/
+
+table.rozvrh { 
+  width: 100%;
+  vertical-align: center;
+  border-collapse: collapse;
+  border: 1px solid rgb(217, 255, 217);
+  margin-bottom: 25px;
+}
+
+.rozvrh th {
+  border-collapse: collapse;
+  border: 1px solid rgb(217, 255, 217);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.rozvrh td {
+  border-collapse: collapse;
+  border: 1px solid rgb(217, 255, 217);
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td.time {width: 100px;}
+
+/*.............................. foto ......................................*/
+
+.foto  { 
+  text-align: center;
+  float:  left;
+  width:  200px;
+  margin: 10px 25px 25px 25px;
+  border: 0px dashed #666;
+}
+
+.fotor  { 
+  text-align: center;
+  float:  right;
+  xwidth:  100px;
+  margin: 10px 10px 10px 10px;
+  border: 0px dashed #666;
+}
+
+
+/*.............................. phones ......................................*/
+
+table.phones { 
+  width: 100%;
+  font-size: 0.9em;
+  border-collapse: collapse;
+  border: 0px solid #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}      
+
+table.phones th { 
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px; 
+  border-collapse: collapse;
+  border: 0px solid #fff;
+}      
+
+table.phones td  { 
+  padding: 5px 0px 5px 5px;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border: 0px solid #fff;
+}
+
+tr.barva { background-color: #008000; }
+
+#funkce { xwidth: 90px; }
+#jméno { xwidth: 150px; }
+#mobil { width: 80px; }
+#pevná { width: 90px; }
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+div.aktuality_all div {
+  padding-top: 15px;
+}
+
+
+div.novinky_right div {
+  padding-bottom: 16px;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
